@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
@@ -12,6 +13,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+
+
+   
+    public int health;
 
     private void Update()
     {
@@ -29,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+
     }
 
     private void FixedUpdate()

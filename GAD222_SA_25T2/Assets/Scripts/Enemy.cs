@@ -1,9 +1,9 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     public int health;
-
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,11 +15,8 @@ public class Enemy : MonoBehaviour
     
     public void TakeDamage()
     {
-        health = -1;
+        health += -1;
     }
 
-    private void Update()
-    {
-        Debug.Log(health);
-    }
+   
 }
