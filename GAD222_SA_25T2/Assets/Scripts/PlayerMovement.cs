@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
 
    
-    public int health;
+
 
     private void Update()
     {
