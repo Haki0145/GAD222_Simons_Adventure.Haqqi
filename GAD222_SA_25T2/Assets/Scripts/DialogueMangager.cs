@@ -13,12 +13,13 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueArea;
 
     private Queue<DialogueLine> lines;
-
     public bool isDialogueActive = false;
-
     public float typingSpeed = 0.2f;
-
     public Animator animator;
+
+    [SerializeField] PlayerMovement playerMovement;
+
+    public System.Action OnDialogueEnd;
 
     private void Awake()
     {
@@ -26,14 +27,29 @@ public class DialogueManager : MonoBehaviour
             Instance = this;
 
         lines = new Queue<DialogueLine>();
+        
+    }
+
+    private void Update()
+    {
+        if (isDialogueActive && Input.GetKeyDown(KeyCode.E))
+        {
+            DisplayNextDialogueLine();
+        }
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        if (isDialogueActive) return;
+
         isDialogueActive = true;
 
-        animator.Play("show");
+        if (playerMovement != null)
+        {
+            playerMovement.StopMovement();
+        }
 
+        animator.Play("show");
         lines.Clear();
 
         foreach (DialogueLine dialogueLine in dialogue.dialogueLines)
@@ -53,12 +69,10 @@ public class DialogueManager : MonoBehaviour
         }
 
         DialogueLine currentLine = lines.Dequeue();
-
         characterIcon.sprite = currentLine.character.icon;
         characterName.text = currentLine.character.name;
 
         StopAllCoroutines();
-
         StartCoroutine(TypeSentence(currentLine));
     }
 
@@ -75,6 +89,13 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         isDialogueActive = false;
+
+        if (playerMovement != null)
+        {
+            playerMovement.StartMovement();
+        }
+
         animator.Play("hide");
+        OnDialogueEnd?.Invoke();
     }
 }

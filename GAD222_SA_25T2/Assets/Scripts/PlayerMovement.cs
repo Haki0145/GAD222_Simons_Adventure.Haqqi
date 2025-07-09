@@ -14,12 +14,32 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    private Vector2 recordedVelocity;
+    private bool canMove = true;
 
+    public void StartMovement()
+    {
+        canMove = true;
+        rb.linearVelocity = recordedVelocity;
+    }
+
+    public void StopMovement()
+    {
+        recordedVelocity = rb.linearVelocity;
+        rb.linearVelocity = Vector2.zero;
+        horizontal = 0f;
+        canMove = false;
+    }
    
 
 
     private void Update()
     {
+        if (!canMove )
+        {
+            return;
+        }
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
