@@ -239,7 +239,7 @@ MonoBehaviour:
   choiceText: {fileID: 0}
   option1Button: {fileID: 513540403}
   option2Button: {fileID: 513540402}
-  scene1Name: 
+  scene1Name: Scene 2
   scene2Name: 
 --- !u!1001 &513540400
 PrefabInstance:
@@ -249,6 +249,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 457673493}
     m_Modifications:
+    - target: {fileID: 745151292010925252, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_text
+      value: Froggy Swamp
+      objectReference: {fileID: 0}
     - target: {fileID: 5393064891883914197, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_Name
       value: Choice panel
@@ -332,6 +336,10 @@ PrefabInstance:
     - target: {fileID: 6426582636671761371, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_text
+      value: Tamed Fields
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
