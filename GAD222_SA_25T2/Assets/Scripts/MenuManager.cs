@@ -5,6 +5,6 @@ public class MenuManager : MonoBehaviour
 {
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("Scene 1");
+        SceneManager.LoadScene("KingsCutcene");
     }
 }

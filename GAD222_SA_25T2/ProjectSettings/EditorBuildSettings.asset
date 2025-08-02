@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 44949738fcc205247a9f44b13e69ddd7
   - enabled: 1
+    path: Assets/Scenes/KingsCutcene.unity
+    guid: 488a349ed35708a47870af4924f45a53
+  - enabled: 1
     path: Assets/Scenes/Scene 1.unity
     guid: 1dcb740b8e8c8b8458de694c12bd02e0
   - enabled: 1
