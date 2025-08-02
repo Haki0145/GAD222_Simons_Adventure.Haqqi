@@ -480,7 +480,7 @@ MonoBehaviour:
   choiceText: {fileID: 1864871316}
   option1Button: {fileID: 449909859}
   option2Button: {fileID: 2004358496}
-  scene1Name: GoblinPotions
+  scene1Name: Forrest2
   scene2Name: Forrest2
 --- !u!1 &1058912973 stripped
 GameObject:
