@@ -232,7 +232,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 745151292010925252, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_text
-      value: Froggy Swamp
+      value: Dark Creek
+      objectReference: {fileID: 0}
+    - target: {fileID: 745151292010925252, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 745151292010925252, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5393064891883914197, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_Name
@@ -324,7 +332,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_text
-      value: Tamed Fields
+      value: Luminous Woods
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_fontSize
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_margin.x
+      value: -12.449066
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_margin.z
+      value: -14.938911
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -980,9 +1004,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign
       objectReference: {fileID: 0}
+    - target: {fileID: 7157413107743933898, guid: 25e757062d496cb4a904a266dca06b0c, type: 3}
+      propertyPath: m_Size.y
+      value: 4.8188157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157413107743933898, guid: 25e757062d496cb4a904a266dca06b0c, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.13479233
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157413107743933898, guid: 25e757062d496cb4a904a266dca06b0c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.92951536
+      objectReference: {fileID: 0}
     - target: {fileID: 9093211552614426098, guid: 25e757062d496cb4a904a266dca06b0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.61
+      value: 10.31
       objectReference: {fileID: 0}
     - target: {fileID: 9093211552614426098, guid: 25e757062d496cb4a904a266dca06b0c, type: 3}
       propertyPath: m_LocalPosition.y
