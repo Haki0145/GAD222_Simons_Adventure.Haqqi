@@ -24,11 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/FroggySwamp.unity
     guid: f358312b02fc6e14b92e0b57730e1b58
   - enabled: 1
-    path: Assets/Scenes/Forrest2.unity
-    guid: b4bd495ecd5db9947b63495fd09a8cfb
-  - enabled: 1
     path: Assets/Scenes/GoblinPotions.unity
     guid: 4582ff34d4bfb534ca8e8a24e816939f
+  - enabled: 1
+    path: Assets/Scenes/Forrest2.unity
+    guid: b4bd495ecd5db9947b63495fd09a8cfb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
