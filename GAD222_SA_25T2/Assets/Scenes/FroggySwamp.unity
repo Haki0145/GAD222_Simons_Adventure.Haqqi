@@ -1793,27 +1793,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].line
-      value: Hello, I lost my cat
+      value: ' "Sir Knight! Please, you have to help me!"'
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].line
-      value: Will you help me find him?
+      value: "\"What\u2019s wrong?\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].line
+      value: '"My cat, Whiskers."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].line
+      value: "\"He ran off into this swamp and I can\u2019t find him.\u201D "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].line
+      value: '"Could you help me search for my cat?"'
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.icon
       value: 
+      objectReference: {fileID: -8017111504545471185, guid: 0b63ddb1907faeb40b0ffc429eb5cb75, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].character.name
+      value: Village Girl
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.icon
       value: 
-      objectReference: {fileID: -5513019554878168554, guid: 547ea68a1e0001945a645648cdec4f63, type: 3}
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.name
-      value: Npc
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].character.icon
+      value: 
+      objectReference: {fileID: -8017111504545471185, guid: 0b63ddb1907faeb40b0ffc429eb5cb75, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].character.name
+      value: Village Girl
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.icon
+      value: 
+      objectReference: {fileID: -8017111504545471185, guid: 0b63ddb1907faeb40b0ffc429eb5cb75, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.name
+      value: Village Girl
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.icon
+      value: 
+      objectReference: {fileID: -8017111504545471185, guid: 0b63ddb1907faeb40b0ffc429eb5cb75, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.name
+      value: Village Girl
       objectReference: {fileID: 0}
     - target: {fileID: 5951133099404371810, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Name
