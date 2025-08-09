@@ -378,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue box
       objectReference: {fileID: 0}
+    - target: {fileID: 1712172081554220628, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2845320665344007096, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -492,7 +496,7 @@ MonoBehaviour:
   choiceText: {fileID: 1864871316}
   option1Button: {fileID: 449909859}
   option2Button: {fileID: 2004358496}
-  scene1Name: Forrest2
+  scene1Name: GoblinPotions
   scene2Name: Forrest2
 --- !u!1 &1058912973 stripped
 GameObject:
@@ -638,51 +642,127 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1002216730833619494, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Color.b
-      value: 0.24546099
+      value: 0.21852368
       objectReference: {fileID: 0}
     - target: {fileID: 1002216730833619494, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Color.g
-      value: 0.3962264
+      value: 0.7987421
       objectReference: {fileID: 0}
     - target: {fileID: 1002216730833619494, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Color.r
-      value: 0.27055153
+      value: 0.31013718
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.size
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].line
-      value: Oh kind stranger
+      value: '"Halt! Who goes there?'
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].line
-      value: Won't you help this old goblin find his potions?
+      value: "\"I am Simon the Knight.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].line
-      value: But theres too many to carry so Why dont I hold your box for you?
+      value: "\u201DI am on a quest to deliver a box for the witch.\""
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].line
+      value: '"The Witch?!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].line
+      value: "\"That thieving hag stole my gold and threw my potions away\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].line
+      value: "\u201CHelp this poor troll find \u2018em?\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].line
+      value: "\u201DShe threw them over those fields and I\u2019m scared to go in\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].line
+      value: "\u201D And since there's a bunch of them, I can hold that box for you\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].line
+      value: (The troll smirks showing his poor dental teeth)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].character.icon
+      value: 
+      objectReference: {fileID: 7323519632667489221, guid: 3c43e3df802a70649839c8416230510e, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.name
-      value: Gobin
+      value: Troll
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.icon
       value: 
-      objectReference: {fileID: -5513019554878168554, guid: 547ea68a1e0001945a645648cdec4f63, type: 3}
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.name
-      value: Goblun
+      value: Simon
       objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].character.icon
       value: 
-      objectReference: {fileID: -5513019554878168554, guid: 547ea68a1e0001945a645648cdec4f63, type: 3}
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].character.name
-      value: Goblun
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.icon
+      value: 
+      objectReference: {fileID: 7323519632667489221, guid: 3c43e3df802a70649839c8416230510e, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.name
+      value: Troll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.icon
+      value: 
+      objectReference: {fileID: 7323519632667489221, guid: 3c43e3df802a70649839c8416230510e, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.name
+      value: Troll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].character.icon
+      value: 
+      objectReference: {fileID: 7323519632667489221, guid: 3c43e3df802a70649839c8416230510e, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].character.name
+      value: Troll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].character.icon
+      value: 
+      objectReference: {fileID: 7323519632667489221, guid: 3c43e3df802a70649839c8416230510e, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].character.name
+      value: Troll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].character.icon
+      value: 
+      objectReference: {fileID: 7323519632667489221, guid: 3c43e3df802a70649839c8416230510e, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].character.name
+      value: troll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].character.icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].character.name
+      value: Narator
       objectReference: {fileID: 0}
     - target: {fileID: 5951133099404371810, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Name
