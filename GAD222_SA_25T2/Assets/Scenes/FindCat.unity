@@ -753,6 +753,22 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.899371
       objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Size.x
+      value: 3.675026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9219007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.2191391
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.35515857
+      objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.size
       value: 13

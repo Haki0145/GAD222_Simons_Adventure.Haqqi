@@ -313,7 +313,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 745151292010925252, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_text
-      value: Dark Creek
+      value: Froggy Swamp
       objectReference: {fileID: 0}
     - target: {fileID: 745151292010925252, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_fontSize
@@ -413,7 +413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_text
-      value: Luminous Woods
+      value: Tamed Fields
       objectReference: {fileID: 0}
     - target: {fileID: 6527020170269093892, guid: 24517975358700e418f32236c37d4a85, type: 3}
       propertyPath: m_fontSize
