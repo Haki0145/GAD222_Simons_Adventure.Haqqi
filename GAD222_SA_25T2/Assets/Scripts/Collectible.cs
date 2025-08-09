@@ -8,15 +8,14 @@ public class Collectible : MonoBehaviour
 
     void Start()
     {
-        // Count this collectible when spawned
-        totalCollectibles++;
+                totalCollectibles++;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // Increment collected count
+    
             collectedCount++;
 
             // Destroy this collectible

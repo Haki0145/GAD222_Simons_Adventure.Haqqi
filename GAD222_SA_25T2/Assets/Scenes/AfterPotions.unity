@@ -358,6 +358,158 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.7939981
       objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: '"Alright, Troll. I have found all your-"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: '"Huh?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].line
+      value: '"He''s gone... and left the box unguarded"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].line
+      value: '"How rude!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].line
+      value: (Just when Simon picked the box up)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].line
+      value: (He notice its weight increased slightly.)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].line
+      value: (He notice its weight increased slightly.)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].line
+      value: "\"That\u2019s\u2026 weird.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].line
+      value: '"Did he add something in it and left right after?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[9].line
+      value: '"..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[10].line
+      value: '"No Simon... Remember the quest."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[11].line
+      value: '"No Simon. Remember the quest."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[12].line
+      value: (He then continues on.)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.name
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].character.name
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].character.name
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[9].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[9].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[10].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[10].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[11].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[11].character.name
+      value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[12].character.icon
+      value: 
+      objectReference: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
+    - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[12].character.name
+      value: Simon
+      objectReference: {fileID: 0}
     - target: {fileID: 5951133099404371810, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Name
       value: NPC
