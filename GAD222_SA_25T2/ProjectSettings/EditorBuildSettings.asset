@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GoblinPotions.unity
     guid: 4582ff34d4bfb534ca8e8a24e816939f
   - enabled: 1
+    path: Assets/Scenes/AfterPotions.unity
+    guid: c907d340b3ce7f144bf14901c6db36fa
+  - enabled: 1
     path: Assets/Scenes/Forrest2.unity
     guid: b4bd495ecd5db9947b63495fd09a8cfb
   m_configObjects:
