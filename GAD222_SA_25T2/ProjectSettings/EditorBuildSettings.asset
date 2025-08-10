@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LuminousWood.unity
     guid: 43d58ecb7f247454fab07f6db313696a
+  - enabled: 1
+    path: Assets/Scenes/DarkCreek.unity
+    guid: b1228baba3ef30a4b85fe1690c4e4f64
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
