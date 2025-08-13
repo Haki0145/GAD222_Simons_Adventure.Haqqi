@@ -1414,8 +1414,8 @@ MonoBehaviour:
   choiceText: {fileID: 535254042}
   option1Button: {fileID: 708021912}
   option2Button: {fileID: 1371604214}
-  scene1Name: FindCandle
-  scene2Name: WitchCave
+  scene1Name: BADending
+  scene2Name: GOODending
 --- !u!1001 &1930075679
 PrefabInstance:
   m_ObjectHideFlags: 0

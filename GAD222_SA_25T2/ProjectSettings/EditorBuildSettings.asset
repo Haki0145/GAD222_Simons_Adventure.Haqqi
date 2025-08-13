@@ -53,6 +53,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WitchCave.unity
     guid: 3e758eae83ddf644c88416715b5800a7
+  - enabled: 1
+    path: Assets/Scenes/GOODending.unity
+    guid: 6cab365be3303d14598193c72a235cd0
+  - enabled: 1
+    path: Assets/Scenes/BADending.unity
+    guid: 8e438010c995a53478387b0fd2256361
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -21,13 +21,16 @@ public class DialogueManager : MonoBehaviour
 
     public System.Action OnDialogueEnd;
 
+    private Coroutine typingCoroutine;
+    private DialogueLine currentLine;
+    private bool isTyping = false;
+
     private void Awake()
     {
         if (Instance == null)
             Instance = this;
 
         lines = new Queue<DialogueLine>();
-        
     }
 
     private void Update()
@@ -62,33 +65,52 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextDialogueLine()
     {
+        if (isTyping)
+        {
+            CompleteCurrentLine();
+            return;
+        }
+
         if (lines.Count == 0)
         {
             EndDialogue();
             return;
         }
 
-        DialogueLine currentLine = lines.Dequeue();
+        currentLine = lines.Dequeue();
         characterIcon.sprite = currentLine.character.icon;
         characterName.text = currentLine.character.name;
 
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(currentLine));
+        typingCoroutine = StartCoroutine(TypeSentence(currentLine));
     }
 
     IEnumerator TypeSentence(DialogueLine dialogueLine)
     {
+        isTyping = true;
         dialogueArea.text = "";
         foreach (char letter in dialogueLine.line.ToCharArray())
         {
             dialogueArea.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+        isTyping = false;
+    }
+
+    private void CompleteCurrentLine()
+    {
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+
+        dialogueArea.text = currentLine.line;
+        isTyping = false;
     }
 
     void EndDialogue()
     {
         isDialogueActive = false;
+        isTyping = false;
 
         if (playerMovement != null)
         {
