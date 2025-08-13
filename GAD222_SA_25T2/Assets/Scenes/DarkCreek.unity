@@ -473,15 +473,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1002216730833619494, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Color.b
-      value: 0.61006284
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1002216730833619494, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Color.g
-      value: 0.21294639
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1002216730833619494, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Color.r
-      value: 0.22972594
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: m_Size.x
@@ -1181,6 +1181,44 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6426582636671761371, guid: 24517975358700e418f32236c37d4a85, type: 3}
   m_PrefabInstance: {fileID: 1679971738}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1679971740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8938835430590621905, guid: 24517975358700e418f32236c37d4a85, type: 3}
+  m_PrefabInstance: {fileID: 1679971738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1679971741 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6705315973198319642, guid: 24517975358700e418f32236c37d4a85, type: 3}
+  m_PrefabInstance: {fileID: 1679971738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1679971742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3645891365467647650, guid: 24517975358700e418f32236c37d4a85, type: 3}
+  m_PrefabInstance: {fileID: 1679971738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1679971743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5393064891883914197, guid: 24517975358700e418f32236c37d4a85, type: 3}
+  m_PrefabInstance: {fileID: 1679971738}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1725139542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1250,6 +1288,7 @@ GameObject:
   - component: {fileID: 2116373624}
   - component: {fileID: 2116373623}
   - component: {fileID: 2116373622}
+  - component: {fileID: 2116373626}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1341,6 +1380,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2116373626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116373621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0a0cc45ee11ae4ba98ce5d77deae8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choicePanel: {fileID: 1679971743}
+  choiceText: {fileID: 1679971742}
+  option1Button: {fileID: 1679971741}
+  option2Button: {fileID: 1679971740}
+  scene1Name: FindCandle
+  scene2Name: WitchCave
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
