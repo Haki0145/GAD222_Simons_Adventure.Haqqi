@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FindCandle.unity
     guid: dcb8f878f0d89ad488899842c187fdd5
   - enabled: 1
+    path: Assets/Scenes/AfterCandle.unity
+    guid: a51076197df3d3e438580db2f82de4c6
+  - enabled: 1
     path: Assets/Scenes/WitchCave.unity
     guid: 3e758eae83ddf644c88416715b5800a7
   m_configObjects:
