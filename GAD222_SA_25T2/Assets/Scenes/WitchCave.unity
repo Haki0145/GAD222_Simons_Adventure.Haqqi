@@ -790,6 +790,22 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9622642
       objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Size.x
+      value: 4.028905
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6707149
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Offset.x
+      value: -1.5144525
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538440857060204970, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.8353574
+      objectReference: {fileID: 0}
     - target: {fileID: 5924542250199314748, guid: d66daa48358865d4eb73b1890f55c3ab, type: 3}
       propertyPath: dialogue.dialogueLines.Array.size
       value: 13
@@ -1389,8 +1405,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2119575894}
   - {fileID: 44797089}
+  - {fileID: 2119575894}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
