@@ -270,6 +270,17 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &270065879 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6335723521013753910, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
+  m_PrefabInstance: {fileID: 635010557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &430932799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,7 +380,7 @@ PrefabInstance:
     - target: {fileID: 1213457124138675787, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
       propertyPath: characterIcon
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 270065879}
     - target: {fileID: 1213457124138675787, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
       propertyPath: playerMovement
       value: 
@@ -465,39 +476,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1712172081554220628, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 941503462}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
---- !u!1 &941503456 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1712172081554220628, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
-  m_PrefabInstance: {fileID: 635010557}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &941503457 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2845320665344007096, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
   m_PrefabInstance: {fileID: 635010557}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &941503462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 941503456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da0a0cc45ee11ae4ba98ce5d77deae8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  choicePanel: {fileID: 1058912973}
-  choiceText: {fileID: 1864871316}
-  option1Button: {fileID: 449909859}
-  option2Button: {fileID: 2004358496}
-  scene1Name: GoblinPotions
-  scene2Name: Forrest2
 --- !u!1 &1058912973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5393064891883914197, guid: 24517975358700e418f32236c37d4a85, type: 3}
@@ -833,6 +818,7 @@ GameObject:
   - component: {fileID: 1385051349}
   - component: {fileID: 1385051348}
   - component: {fileID: 1385051347}
+  - component: {fileID: 1385051351}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -924,6 +910,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1385051351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385051346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0a0cc45ee11ae4ba98ce5d77deae8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choicePanel: {fileID: 1058912973}
+  choiceText: {fileID: 1864871316}
+  option1Button: {fileID: 449909859}
+  option2Button: {fileID: 2004358496}
+  scene1Name: GoblinPotions
+  scene2Name: Forrest2
 --- !u!1 &1648012644
 GameObject:
   m_ObjectHideFlags: 0
