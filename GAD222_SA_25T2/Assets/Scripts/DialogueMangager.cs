@@ -25,6 +25,10 @@ public class DialogueManager : MonoBehaviour
     private DialogueLine currentLine;
     private bool isTyping = false;
 
+    [Header("Scene Transition")]
+    public string nextSceneName;
+    public float sceneTransitionDelay = 1f;
+
     private void Awake()
     {
         if (Instance == null)
@@ -119,5 +123,16 @@ public class DialogueManager : MonoBehaviour
 
         animator.Play("hide");
         OnDialogueEnd?.Invoke();
+
+        if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            StartCoroutine(LoadNextSceneAfterDelay());
+        }
+    }
+
+    IEnumerator LoadNextSceneAfterDelay()
+    {
+        yield return new WaitForSeconds(sceneTransitionDelay);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
     }
 }
