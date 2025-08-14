@@ -1076,6 +1076,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1295401269}
     m_Modifications:
+    - target: {fileID: 1213457124138675787, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
+      propertyPath: nextSceneName
+      value: TheEnd
+      objectReference: {fileID: 0}
     - target: {fileID: 1712172081554220628, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
       propertyPath: m_Name
       value: Dialogue box

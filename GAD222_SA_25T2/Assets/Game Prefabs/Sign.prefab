@@ -106,11 +106,11 @@ MonoBehaviour:
     dialogueLines:
     - character:
         name: Simon
-        icon: {fileID: 0}
+        icon: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
       line: 'Hmmm... '
     - character:
         name: Simon
-        icon: {fileID: 0}
+        icon: {fileID: -5711848221618334454, guid: 5000d1f35f6d4cb4c9eea181f2e4eb6c, type: 3}
       line: I wonder which path I should go?
 --- !u!61 &7157413107743933898
 BoxCollider2D:
