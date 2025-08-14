@@ -425,6 +425,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1888093659}
     m_Modifications:
     - target: {fileID: 1213457124138675787, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
+      propertyPath: nextSceneName
+      value: Forrest2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213457124138675787, guid: af221925e851c9f47a55d6372c4b8bc9, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1874202481}
