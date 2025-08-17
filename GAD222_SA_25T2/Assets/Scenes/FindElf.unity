@@ -1251,15 +1251,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4616347761140908302, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.7070336
+      value: 4.3460436
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616347761140908302, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.496441
       objectReference: {fileID: 0}
     - target: {fileID: 4616347761140908302, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1415
+      value: -0.178
       objectReference: {fileID: 0}
     - target: {fileID: 4616347761140908302, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0581
+      value: -0.0933
       objectReference: {fileID: 0}
     - target: {fileID: 4616347761140908302, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1294,9 +1298,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6534258779175484138, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
+      propertyPath: m_Size.x
+      value: 4.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534258779175484138, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
+      propertyPath: m_Size.y
+      value: 2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534258779175484138, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3189545561644513417, guid: 3278b8b34a99c7143b225af65246acc5, type: 3}
+      objectReference: {fileID: -6015140900278311392, guid: ebf581065ded620458fce85bb97cc9df, type: 3}
+    - target: {fileID: 6534258779175484138, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8454447229455129646, guid: 05cf7cd27ea01e342898c184a684d729, type: 3}
       propertyPath: m_Name
       value: Background

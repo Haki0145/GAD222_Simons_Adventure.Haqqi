@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3278b8b34a99c7143b225af65246acc5
+guid: ebf581065ded620458fce85bb97cc9df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3189545561644513417
-    second: Luminouswoods_0
+      213: -6015140900278311392
+    second: Screenshot 2025-08-17 202453_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Luminouswoods_0
+      name: Screenshot 2025-08-17 202453_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 274
+        width: 419
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 777414be5357cb3d0800000000000000
-      internalID: -3189545561644513417
+      spriteID: 026ecf4883de58ca0800000000000000
+      internalID: -6015140900278311392
       vertices: []
       indices: 
       edges: []
